@@ -6,11 +6,9 @@ function Header({ isUploading = false, onPhotoSelect }) {
         <Flex px="4" py="4" justify="space-between">
             <Text as="div" fontSize="xl" fontWeight="bold">
                 <span role="img" aria-labelledby="potato">
-                    🥔
+                    <i class="fas fa-image"></i> &nbsp;
                 </span>
-                <span role="img" aria-labelledby="potato">
-                    🍠
-                </span>
+                <span role="img" aria-labelledby="potato"></span>
                 PhotoViewer
             </Text>
 
